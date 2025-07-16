@@ -1,0 +1,67 @@
+.settings-bg {
+  min-height: 100vh;
+  width: 100vw;
+  background: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.settings-card {
+  background: #fff;
+  padding: 2.2rem 2rem 1.7rem 2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 24px rgba(60, 72, 88, 0.10);
+  min-width: 320px;
+  max-width: 400px;
+  text-align: center;
+}
+.settings-card h2 {
+  color: #223;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 1.1rem;
+}
+.settings-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.1rem auto;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.10);
+  letter-spacing: 1px;
+}
+.settings-info {
+  color: #4b5563;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  padding-left: 0.5rem;
+  font-weight: 500;
+}
+.settings-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.1rem;
+}
+.settings-logout-btn, .settings-back-btn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 0.7rem 1.7rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.10);
+  transition: background 0.2s, transform 0.2s;
+}
+.settings-logout-btn:hover, .settings-back-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px) scale(1.03);
+} 
