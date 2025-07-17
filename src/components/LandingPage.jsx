@@ -32,7 +32,7 @@ const LandingPage = () => {
       <Box sx={{ width: '100%', maxWidth: 1200, mx: 'auto', position: 'relative', zIndex: 1 }}>
         <Box sx={{ textAlign: 'center', mb: 8 }}>
           <Typography variant="h3" component="h1" gutterBottom sx={{ fontWeight: 700, color: '#2d3748' }}>
-            Schedule Your Appointments
+            Schedule And Manage Your Appointments
           </Typography>
           <Typography variant="h5" color="text.secondary" paragraph>
             Manage your appointments with ease using our intuitive interface
